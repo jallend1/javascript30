@@ -5,6 +5,7 @@ const progressBar = player.querySelector('.progress__filled');
 const toggle      = player.querySelector('.toggle');
 const skipButtons = player.querySelectorAll('[data-skip]');
 const ranges      = player.querySelectorAll('.player__slider');
+const fullScreen  = document.querySelector('#fullscreen')
 let   mousedown   = false;
 
 function handleProgress(){
